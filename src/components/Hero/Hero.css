@@ -1,0 +1,50 @@
+.main-container,.thank-you{
+    width:300px;
+    background-color: #212832;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.content{
+    display: block;
+    text-align: left;
+    margin-left: 5%;
+}
+
+.rating{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}   
+
+.rating>button{
+    border-radius: 50%;
+    cursor:pointer;
+    margin-left: 3%;
+}
+
+.rating>button:hover{
+    background-color: #fb7713;
+}
+
+.rating>button:focus{
+    background-color: grey;
+}
+.content p{
+    color:grey;
+}
+.btn-submit{
+    background-color: #fb7713;
+    width: 100%;
+    margin-bottom: 5%;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.btn-submit:hover{
+    background-color:white ;
+    color:#fb7713;
+}
