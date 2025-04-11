@@ -1,4 +1,4 @@
-import "./Header.css";
+import "./Star.css";
 
 const Header = () => {
     return(
